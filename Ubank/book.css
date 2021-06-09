@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,600|Playfair+Display:400,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Acme|Alatsi&display=swap');
+body {
+   font-family:'roboto Condensed',sans-serif;
+   margin-top: 0px;
+   padding:0px;
+   background-color:#00ffff;
+}
+.box h1 {
+  color:white;
+  text-transform: uppercase;
+  font-family: "Alatsi";
+  font-weight: 700;
+}
+.input-em {
+  border-radius: 24px ;
+  border:2px solid #ff99ff;
+  width: 250px;
+  margin:auto;
+  font-size:auto;
+  padding: 14px 10px;
+  outline: none;
+  color:#ffffff;
+  background: none;
+  display: block;
+  transition: 0.25s;
+  text-align: center;
+}
+.input-em:focus {
+  width:300px;
+  border-color: #ffcc00;
+}
+.warn {
+  color: #eef;
+  font-size: 40px;
+  margin-top:10px;
+}
+.set-f {
+  font-family: 'Oswald',sans-serif;
+  color: #ff66ff;
+  font-size: 40px;
+  text-decoration: none;
+  font-weight: 400;
+}
+a.set-f:hover {
+  transition:0.4s;
+  transform: scale(1.2);
+  color: #fdf;
+}
+.but-log {
+  font-size: 25px;
+  background-color:#1c8adb;
+  width:150px;
+  border-radius: 15px ;
+  font-family: 'roboto Condensed',sans-serif;
+  border:none;
+  color: white;
+  box-shadow: 5px 4px 10px rgba(0,0,0,.7);
+}
+.but-log:hover {
+  cursor:pointer;
+  transition: 0.25s;
+  transform: scale(1.2);
+  background-color: #ff6600;
+}
+.foot {
+  text-decoration: none;
+  text-align: center;
+  color: #0ef;
+  font-size: 17px;
+  position: relative;
+}
+.icon-top {
+  font-size: 110px;
+  color: white;
+  cursor:alias;
+}
+.icon {
+  width:201px;
+  font-size: 25px;
+  height: 55px;
+  margin:0px;
+  display: inline-flex;
+  border: 0px solid;
+  position: relative;
+  background-color:#00ccff;
+  opacity: 0.7;
+  border-radius:50px;
+  align-items: center;
+}
+.icon a {
+  color:white;
+  width:50px;
+  opacity: 1;
+}
+.icon i {
+  line-height:40px;
+  transition: 1s;
+  background-color: black ;
+  border-radius:50px;
+  width:40px;
+}
+.icon i:hover {
+  transform: rotate(360deg);
+}
+.box {
+  border-radius: 50px;
+  margin: 10px;
+  width: 400px;
+  padding:60px;
+  top:65%;
+  left:50%;
+  height: 105%;
+  position: absolute;
+  transform:translate(-50%,-50%);
+  text-align: center;
+  background-color: #993366;
+}
